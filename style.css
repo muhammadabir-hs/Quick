@@ -1,0 +1,88 @@
+/*common css starts*/
+body{
+	font-family: sans-serif;
+}
+/*common css ends*/
+
+
+/*header starts*/
+header{
+	/*border: 1px solid black;*/
+	padding: 15px 0;
+}
+
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	float: left;
+	width: 10%;
+	/*border: 1px solid black;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	margin-top: 2px;
+	float: right;
+	width: 45%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+} 
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+
+	text-decoration: none;
+    color: #0F2656;
+    padding: 0px 25px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header ends*/
+
+
+/*banner starts*/
+.banner {
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 60%;
+}
+
+.b_content {
+	text-align: center;
+}
+
+.b_h1 {
+	margin: 15px 0;
+	font-size: 65px;
+	color: #0F2656;
+}
+.b_span{
+	color: #008AFF;
+}
+
+.b_text {
+	margin: 0;
+	color: #0F2656;
+}
+
+.b_image {
+}
+
+/*banner ends*/
